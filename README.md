@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+## Brecha de actividad en Argentina por sexo
 
-You can use the [editor on GitHub](https://github.com/malenalibman/brecha_actividad/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+De acuerdo a la documentación de la EPH se agregaron los datos del primer trimestre de 2020 teniendo en cuenta la ponderación, de la combinación de las variables Sexo y  Condición de Actividad (Ocupado); se calculó el porcentaje en relación al total de la PEA y la diferencia entre el porcentaje de Varones y Mujeres ocupados.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Fuente
 
-### Markdown
+El mapa se creó en QGIS utilizando el plugin qgis2web.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+La información geográfica se obtuvo del [Geoservicio de INDEC](https://geoservicios.indec.gov.ar/geoserver/ows?version=1.3.0) 
+
+Se obtuvieron y/o normalizaron los datos de la Encuesta Permanente de Hogares (EPH-INDEC) utilizando el paquete de R 'eph' (Kozlowski et al, 2020)
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Diego Kozlowski, Pablo Tiscornia, Guido Weksler, German Rosati and Natsumi Shokida (2020). eph: Argentina's Permanent Household Survey Data and Manipulation Utilities. R package version https://doi.org/10.5281/zenodo.3462677
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Para más información [Caja de Herramientas para el procesamiento de la Encuesta Permanente de Hogares](https://github.com/holatam/eph).
 
-### Jekyll Themes
+### Autoras
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/malenalibman/brecha_actividad/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Malena Libman y Fernanda Cataldi
